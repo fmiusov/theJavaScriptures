@@ -10,3 +10,7 @@
 - Google's JS Engine, V8, was extracted to run JS anywhere (Node.js)
 - NodeJS can be executed on any machine so it is often used to build web backends
 - NodeJS can access the local filesystem, interact with the OS, etc. It CANT manipulate HTML or CSS like JavaScript can (because it does not have direct access to the browser? Or maybe just not access to the front end, either way the syntax is the same)
+- 1995, Netscape introduces LiveScript which became JavaScript, then in 1996 Microsoft releases its own version for IE. 
+- Late 1996 JavaScript gets standardized by ECMA International (ECMAScript)
+- Microsoft was being annoying in the late 90s and didn't help in the standardization
+- 2006-2011 saw huge progress in JavaScript ecosystem, even Microsoft couldn't ignore it anymore
