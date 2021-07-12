@@ -14,3 +14,7 @@
 - Late 1996 JavaScript gets standardized by ECMA International (ECMAScript)
 - Microsoft was being annoying in the late 90s and didn't help in the standardization
 - 2006-2011 saw huge progress in JavaScript ecosystem, even Microsoft couldn't ignore it anymore
+- camelCase for variables is best practices, not snake case
+- you can name with $ and _ anywhere including beginning, otherwise only letters and digits (but never starting with digits)
+- you cannot use any other special characters besides $ and _, INCLUDING white space
+- you can declare a variable without initializing it (giving it a value)
