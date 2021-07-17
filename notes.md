@@ -26,3 +26,6 @@
 - NaN is not a data type and can technically can be used in calculations, this is usually the result of calculations that are invalid (part of the whole dynamic code aspect of JS)
 - In the end, arrays ARE objects, keep this in mind when comparing objects and arrays
 - Objects and Arrays are kind of special in JS
+- Generally JS conditions work with booleans but they also work with falsy and truthy values
+- Truthy is if your conditional is just checking for a true value (EVEN if you are feeding it a non boolean parameter), vice versa for falsy
+- for example, you can have a condition where the parameter's value ends up being 0. If this is the case, it is treated as false, and is thus a falsy value. Any number including negative numbers resolve to true besides 0. Empty strings are treated as false, any other strings are true, all objects and arrays even empty ones are always true, null/undefined/NaN are always false
