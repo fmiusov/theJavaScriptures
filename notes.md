@@ -18,3 +18,9 @@
 - you can name with $ and _ anywhere including beginning, otherwise only letters and digits (but never starting with digits)
 - you cannot use any other special characters besides $ and _, INCLUDING white space
 - you can declare a variable without initializing it (giving it a value)
+- undefined is the default value of uninitialized variables
+- you should never assigned undefined as a value manually
+- null is never assumed by default
+- you can assign null as a value if you want to 'reset' or 'clear' a variable
+- null and undefined are similar but not equal (they are also their own data types)
+- NaN is not a data type and can technically can be used in calculations, this is usually the result of calculations that are invalid (part of the whole dynamic code aspect of JS)
