@@ -24,3 +24,5 @@
 - you can assign null as a value if you want to 'reset' or 'clear' a variable
 - null and undefined are similar but not equal (they are also their own data types)
 - NaN is not a data type and can technically can be used in calculations, this is usually the result of calculations that are invalid (part of the whole dynamic code aspect of JS)
+- In the end, arrays ARE objects, keep this in mind when comparing objects and arrays
+- Objects and Arrays are kind of special in JS
