@@ -87,3 +87,5 @@ const userName = enteredValue || 'PLACEHOLDER'; // will assign 'PLACEHOLDER' if 
       ...
   }
   ```
+- you can never eliminate all errors from code because there are still dependency errors, network errors, and user errors
+- The best way to handle these errors is to throw and catch them gracefully or recover if possible
