@@ -91,3 +91,4 @@ const userName = enteredValue || 'PLACEHOLDER'; // will assign 'PLACEHOLDER' if 
 - The best way to handle these errors is to throw and catch them gracefully or recover if possible
 - functions are stored in heap, when script runs then the stack is used for anonymous execution, and then 'stacks' up processes to execute
 - JS is single threaded, it only does one thing at a time...basically speaking
+- The purpose of the event loop is to basically inject data into your running script without interrupting the order or flow...I think
