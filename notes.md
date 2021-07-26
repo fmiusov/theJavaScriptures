@@ -93,3 +93,13 @@ const userName = enteredValue || 'PLACEHOLDER'; // will assign 'PLACEHOLDER' if 
 - JS is single threaded, it only does one thing at a time...basically speaking
 - The purpose of the event loop is to basically inject data into your running script without interrupting the order or flow...I think
 - anonymous functions are anonymous because they are still stored in memory and able to be called, they just don't have a name associated with them to call, think of it as a function that is created on the fly
+- Arguments vs Parameters: 
+```
+function sayHi(name) { ... }
+```
+```name``` is a parameter
+```
+sayHi('Jayson')
+```
+```'Jayson'``` is an argument, because it is a concrete value that is being passed in for the ```name``` parameter
+- **functions are objects**
