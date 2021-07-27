@@ -155,3 +155,5 @@ const userName = enteredValue || 'PLACEHOLDER'; // will assign 'PLACEHOLDER' if 
     return a + b;
   }
   ```
+
+- `.bind()` takes in parameters and doesn't call the function immediately but prepares them for future execution
