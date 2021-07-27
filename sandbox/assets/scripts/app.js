@@ -44,18 +44,6 @@ const getWinner = (cChoice, pChoice = DEFAULT_USER_CHOICE) =>
     ? RESULT_PLAYER_WINS
     : RESULT_COMPUTER_WINS;
 
-// if (cChoice === pChoice) {
-//   return RESULT_DRAW;
-// } else if (
-//   (cChoice === ROCK && pChoice === PAPER) ||
-//   (cChoice === PAPER && pChoice === SCISSORS) ||
-//   (cChoice === SCISSORS && pChoice === ROCK)
-// ) {
-//   return RESULT_PLAYER_WINS;
-// } else {
-//   return RESULT_COMPUTER_WINS;
-// }
-
 startGameBtn.addEventListener('click', () => {
   if (gameIsRunning) {
     return;
@@ -101,14 +89,6 @@ const combine = (resultHandler, operation, ...numbers) => {
   }
   resultHandler(sum);
 };
-
-// const subtractUp = function (resultHandler, ...numbers) {
-//   let sum = 0;
-//   for (const num of numbers) {
-//     sum -= num;
-//   }
-//   resultHandler(sum);
-// };
 
 const showResult = (messageText, result) => {
   alert(messageText + ' ' + result);
