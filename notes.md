@@ -160,3 +160,4 @@ const userName = enteredValue || 'PLACEHOLDER'; // will assign 'PLACEHOLDER' if 
 - when you call `alert()` or `prompt()` etc in JS you are really calling `window.alert()` and `window.prompt()` etc, it is just parsed out
 - the DOM has element nodes and text nodes, they are different. Text nodes include white spaces between element nodes
 - nodes are objects that make up the DOM, elements are just a type of node (there are text nodes, attribute nodes, element nodes, etc). You can only query for element nodes
+- a submit event listens for both clicks and enter key presses
