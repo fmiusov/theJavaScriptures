@@ -1,2 +1,2 @@
 # theJavaScriptures
-vanilla javascript practice, refresher exercises, and algorithms
+vanilla javascript practice, refresher exercises, and algorithms to stay sharp
