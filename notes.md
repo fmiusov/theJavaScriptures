@@ -161,3 +161,19 @@ const userName = enteredValue || 'PLACEHOLDER'; // will assign 'PLACEHOLDER' if 
 - the DOM has element nodes and text nodes, they are different. Text nodes include white spaces between element nodes
 - nodes are objects that make up the DOM, elements are just a type of node (there are text nodes, attribute nodes, element nodes, etc). You can only query for element nodes
 - a submit event listens for both clicks and enter key presses
+- not every iterable is an array, some other iterables are NodeList, Strings, Maps, and Sets
+- also, not every Array-Like Object is an array, some other array-likes are NodeLists and Strings
+- ways to create arrays
+
+```
+const arr = [1]
+const arr = ['Hi']
+const arr = Array.of(1)
+const arr = Array(1)
+const arr = Array('Hi')
+const arr = Array.of('Hi')
+const arr = Array.from(1)
+const arr = new Array(1)
+const arr = new Array('Hi')
+const arr = Array.from('Hi')
+```
