@@ -57,3 +57,17 @@ console.log(testResults.indexOf(1.5));
 
 const personData = [{ name: 'Jayson' }, { name: 'Bob' }];
 console.log(personData.indexOf({ name: 'Bob' }));
+
+const bob = personData.find((person, idx, persons) => {
+  return person.name === 'Bob';
+});
+
+bob.name = 'Alice';
+
+console.log(bob);
+
+const jaysonIndex = personData.findIndex((person, idx, persons) => {
+    return person.name === 'Jayson';
+});
+
+console.log(jaysonIndex)
